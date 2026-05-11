@@ -27,7 +27,7 @@ The layer needs a config file to operate. See the folders under `hacks/` for som
 Use `PYROVEIL_CONFIG=/path/to/pyroveil.json` to pick the config you want.
 In Steam, run the game with `PYROVEIL=1 %command%`.
 
-To know that it's active, run `grep "pyroveil:" ~/steam-$APPIDHERE.log` on the `PROTON_LOG` output. You should see, e.g.:
+To know that it's active, run `grep "pyroveil:" ~/steam-<APPID>.log` on the `PROTON_LOG` output. You should see, e.g.:
 
 ```
 pyroveil: Found config in /tmp/pyroveil.json!
